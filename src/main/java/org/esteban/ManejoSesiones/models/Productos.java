@@ -1,4 +1,4 @@
-package org.erick.ManejodeSesiones.services.services.models;
+package org.esteban.ManejoSesiones.models;
 
 // Clase que representa un producto con sus atributos básicos
 public class Productos {

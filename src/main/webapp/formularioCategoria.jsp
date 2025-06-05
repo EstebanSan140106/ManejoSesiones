@@ -12,7 +12,7 @@
 <%--
   Este JSP muestra un formulario para crear, editar o confirmar la activación de una categoría.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" import="org.erick.ManejodeSesiones.services.services.models.Categoria" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" import="org.esteban.ManejoSesiones.models.Categoria" %>
 
 <%
     // Obtenemos la categoría desde el atributo de la solicitud

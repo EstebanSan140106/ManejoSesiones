@@ -1,6 +1,6 @@
-package org.erick.ManejodeSesiones.services.services.repositorio;
+package org.esteban.ManejoSesiones.repository;
 
-import org.erick.ManejodeSesiones.services.services.models.Categoria;
+import org.esteban.ManejoSesiones.models.Categoria;
 
 import java.sql.*;
 import java.util.ArrayList;

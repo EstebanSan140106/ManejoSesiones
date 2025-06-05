@@ -6,9 +6,9 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java"
-         import="java.util.*, org.erick.ManejodeSesiones.services.*" %>
-<%@ page import="org.erick.ManejodeSesiones.services.services.models.Categoria" %>
-<%@ page import="org.erick.ManejodeSesiones.services.services.models.Articulo" %>
+         import="java.util.*, org.esteban.ManejoSesiones.*" %>
+<%@ page import="org.esteban.ManejoSesiones.models.Categoria" %>
+<%@ page import="org.esteban.ManejoSesiones.models.Articulo" %>
 <%List<Articulo> articulos = (List<Articulo>) request.getAttribute("articulos");
     Optional<String> username = (Optional<String>) request.getAttribute("username");
 %>

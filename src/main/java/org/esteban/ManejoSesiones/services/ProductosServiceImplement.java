@@ -1,6 +1,6 @@
-package org.erick.ManejodeSesiones.services.services.services;
+package org.esteban.ManejoSesiones.services;
 
-import org.erick.ManejodeSesiones.services.services.models.Productos;
+import org.esteban.ManejoSesiones.models.Productos;
 
 import java.util.Arrays;
 import java.util.List;

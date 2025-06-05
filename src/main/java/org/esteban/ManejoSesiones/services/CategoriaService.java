@@ -1,6 +1,5 @@
-package org.erick.ManejodeSesiones.services.services.services;
+package org.esteban.ManejoSesiones.services;
 
-import com.google.protobuf.ServiceException;
 import org.erick.ManejodeSesiones.services.services.models.Categoria;
 
 import java.util.List;

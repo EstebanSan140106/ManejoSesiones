@@ -1,11 +1,11 @@
-package org.erick.ManejodeSesiones.services.services.filtro;
+package org.esteban.ManejoSesiones.filter;
 
 import jakarta.servlet.*;
 import jakarta.servlet.annotation.WebFilter;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import org.erick.ManejodeSesiones.services.services.services.LoginService;
-import org.erick.ManejodeSesiones.services.services.services.LoginServiceSessionImplement;
+import org.esteban.ManejoSesiones.services.LoginService;
+import org.esteban.ManejoSesiones.services.LoginServiceSessionImplement;
 
 import java.io.IOException;
 import java.util.Optional;
@@ -16,7 +16,7 @@ public class LoginFilter implements Filter {
     public void doFilter(ServletRequest req, ServletResponse resp, FilterChain filterChain)throws IOException, ServletException{
         LoginService service = new LoginServiceSessionImplement();
         Optional<String> username = service.getUserName((HttpServletRequest) req);
-        //Realizo una condicional si esta presente el nombre del usuario
+        //Realizo una condicional si está presente el nombre del usuario
         if (username.isPresent()){
             filterChain.doFilter(req, resp);
         } else{

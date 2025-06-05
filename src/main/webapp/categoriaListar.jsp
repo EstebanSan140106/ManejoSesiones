@@ -10,8 +10,8 @@
   y permite activar/desactivar categorías, así como agregar nuevas.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java"
-         import="java.util.*, org.erick.ManejodeSesiones.services.*" %>
-<%@ page import="org.erick.ManejodeSesiones.services.services.models.Categoria" %>
+         import="java.util.*, org.esteban.ManejoSesiones.*" %>
+<%@ page import="org.esteban.ManejoSesiones.models.Categoria" %>
 <%
     // Obtiene la lista de categorías del atributo de la solicitud (request)
     List<Categoria> categorias = (List<Categoria>) request.getAttribute("categorias");

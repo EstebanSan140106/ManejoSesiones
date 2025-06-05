@@ -1,4 +1,4 @@
-package org.erick.ManejodeSesiones.services.services.models;
+package org.esteban.ManejoSesiones.models;
 
 public class Categoria {
     //implementar e inicializar las variables de un objeto

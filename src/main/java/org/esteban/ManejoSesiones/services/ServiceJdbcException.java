@@ -1,4 +1,4 @@
-package org.erick.ManejodeSesiones.services.services.services;
+package org.esteban.ManejoSesiones.services;
 
 public class ServiceJdbcException extends RuntimeException {
     public ServiceJdbcException(String message) {

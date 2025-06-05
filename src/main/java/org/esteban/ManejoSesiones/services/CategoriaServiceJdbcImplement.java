@@ -1,8 +1,7 @@
-package org.erick.ManejodeSesiones.services.services.services;
+package org.esteban.ManejoSesiones.services;
 
-import com.google.protobuf.ServiceException;
-import org.erick.ManejodeSesiones.services.services.models.Categoria;
-import org.erick.ManejodeSesiones.services.services.repositorio.CategoriaRepositorioJdbcImplement;
+import org.esteban.ManejoSesiones.models.Categoria;
+import org.esteban.ManejoSesiones.repository.CategoriaRepositorioJdbcImplement;
 
 import java.sql.Connection;
 import java.sql.SQLException;

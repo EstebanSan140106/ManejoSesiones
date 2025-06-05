@@ -1,10 +1,10 @@
-package org.erick.ManejodeSesiones.services.services.filtro;
+package org.esteban.ManejoSesiones.filter;
 
 import jakarta.servlet.*;
 import jakarta.servlet.annotation.WebFilter;
 import jakarta.servlet.http.HttpServletResponse;
-import org.erick.ManejodeSesiones.services.services.services.ServiceJdbcException;
-import org.erick.ManejodeSesiones.services.services.util.Conexion;
+import org.esteban.ManejoSesiones.services.ServiceJdbcException;
+import org.esteban.ManejoSesiones.util.Conexion;
 
 import java.io.IOException;
 import java.sql.Connection;

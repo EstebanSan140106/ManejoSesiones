@@ -1,4 +1,4 @@
-package org.erick.ManejodeSesiones.services.services.models;
+package org.esteban.ManejoSesiones.models;
 
 public class Articulo {
     //declaramos los atributos de la clase Articulo en base a la tabla de la BBDD

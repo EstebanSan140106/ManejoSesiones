@@ -1,4 +1,4 @@
-package org.erick.ManejodeSesiones.services.services.repositorio;
+package org.esteban.ManejoSesiones.repository;
 
 import java.sql.SQLException;
 import java.util.List;

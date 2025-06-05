@@ -1,4 +1,4 @@
-package org.erick.ManejodeSesiones.services.services.util;
+package org.esteban.ManejoSesiones.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
